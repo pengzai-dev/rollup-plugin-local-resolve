@@ -6,11 +6,11 @@ export default function localResolver(customConfig) {
   return {
     resolveId(importee, importer) {
       if (!isDirectoryId(importee)) {
-        return importee;
+        return null;
       }
 
       if (!importer) {
-        return importee;
+        return null;
       }
       const config = mergeConfig(customConfig);
       const basename = path.basename(importer);
@@ -31,7 +31,7 @@ export default function localResolver(customConfig) {
               }
               // continue eachAsync
               statResolve(true);
-              if (i === config.extensions.length - 1) resolve(importee);
+              if (i === config.extensions.length - 1) resolve(null);
             });
           });
         });
