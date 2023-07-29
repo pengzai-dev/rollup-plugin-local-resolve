@@ -2,8 +2,8 @@
   "name": "rollup-plugin-resolve-index",
   "version": "0.0.1",
   "description": "Resolves index.js files with Rollup",
-  "main": "dist/rollup-plugin-local-resolve.js",
-  "jsnext:main": "dist/rollup-plugin-local-resolve.es2015.js",
+  "main": "dist/rollup-plugin-resolve-index.js",
+  "jsnext:main": "dist/rollup-plugin-resolve-index.es2015.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup-babel-lib-bundler -f cjs,es6 src/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frostney/rollup-plugin-local-resolve.git"
+    "url": "git+https://github.com/frostney/rollup-plugin-resolve-index.git"
   },
   "keywords": [
     "rollup",
@@ -31,9 +31,9 @@
   "author": "Johannes Stein",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frostney/rollup-plugin-local-resolve/issues"
+    "url": "https://github.com/frostney/rollup-plugin-resolve-index/issues"
   },
-  "homepage": "https://github.com/frostney/rollup-plugin-local-resolve#readme",
+  "homepage": "https://github.com/frostney/rollup-plugin-resolve-index#readme",
   "devDependencies": {
     "ava": "^0.12.0",
     "babel-preset-es2015-loose-rollup": "^7.0.0",

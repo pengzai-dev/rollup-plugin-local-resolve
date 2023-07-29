@@ -1,7 +1,7 @@
 import test from 'ava';
 
 import { rollup } from 'rollup';
-import localResolve from '../dist/rollup-plugin-local-resolve.js';
+import localResolve from '../dist/rollup-plugin-resolve-index.js';
 
 test(t =>
   rollup({
