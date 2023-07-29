@@ -24,7 +24,6 @@ export default function localResolver(customConfig) {
           );
           return new Promise((statResolve) => {
             stat(file, (err, stats) => {
-              console.log(err, stats);
               if (!err && stats.isFile()) {
                 // stop eachAsync
                 statResolve(false);

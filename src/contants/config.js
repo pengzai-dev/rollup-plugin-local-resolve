@@ -1,4 +1,4 @@
 export const defaultConfig = {
-  extensions: ['.js','.jsx'],
+  extensions: ['.js', '.jsx'],
   indexFileName: 'index',
 };
