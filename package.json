@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-resolve-index",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Resolves index.js files with Rollup",
   "main": "dist/rollup-plugin-resolve-index.js",
   "jsnext:main": "dist/rollup-plugin-resolve-index.es2015.js",
