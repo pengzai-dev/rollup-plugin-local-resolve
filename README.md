@@ -3,7 +3,7 @@ Resolves Node-style directories with `index.js` files in Rollup
 
 
 
-Rollup by default doesn't handle resolving `./folder` to `./folder/index.js` internally. While there is the `rollup-plugin-node-resolve` plugin which also resolves directories as well as all dependencies from the `node_modules` directory, these may sometimes be too much for the use case at hand.
+Rollup by default doesn't handle resolving `./folder` to `./folder/index.js/jsx` internally. While there is the `rollup-plugin-node-resolve` plugin which also resolves directories as well as all dependencies from the `node_modules` directory, these may sometimes be too much for the use case at hand.
 
 ## Installation
 ```
